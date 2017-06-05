@@ -2,8 +2,8 @@ PROJECT_NAME     := experimental_ble_app_blinky_pca10028_s130
 TARGETS          := NRF51822_XXAA
 OUTPUT_DIRECTORY := _build
 
-SDK_ROOT := ../../../../../..
-PROJ_DIR := ../../..
+SDK_ROOT := ../../..
+PROJ_DIR := ./
 
 $(OUTPUT_DIRECTORY)/NRF51822_XXAA.out: \
   LINKER_SCRIPT  := WPTRing_gcc_nrf51.ld
@@ -97,7 +97,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/components/drivers_nrf/timer \
   $(SDK_ROOT)/components/libraries/util \
   $(SDK_ROOT)/components/drivers_nrf/pwm \
-  ../config \
+  ./config \
   $(SDK_ROOT)/components/libraries/usbd/class/cdc \
   $(SDK_ROOT)/components/libraries/csense \
   $(SDK_ROOT)/components/drivers_nrf/rng \

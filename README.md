@@ -20,10 +20,6 @@ GNU_VERSION := 6.0.2
 GNU_PREFIX := arm-none-eabi
 ```
 ### Compile and Flash
-According to the Makefile of this project, the project folder need to be placed here: **..../nRF5_SDK_12.3.0_d7731ad/examples/ble_peripheral/wpt_ring**
-
-The Makefile is here: **..../wpt_ring/pca10028/s130/armgcc/Makefile**
-
 The RAM and Flash address settings are done in the WPTRing_gcc_nrf51.ld, in the same folder above
 In the Makefile it already provides command for flashing:
 ```
