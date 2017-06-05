@@ -24,7 +24,6 @@ According to the Makefile of this project, the project folder need to be placed 
 **..../nRF5_SDK_12.3.0_d7731ad/examples/ble_peripheral/wpt_ring**
 
 The Makefile is here:
-
 **..../wpt_ring/pca10028/s130/armgcc/Makefile**
 
 The RAM and Flash address settings are done in the WPTRing_gcc_nrf51.ld, in the same folder above
@@ -34,4 +33,4 @@ make erase //for erasing the flash
 make flash_softdevice  // for flashing the softdevice
 make flash // for flashing the program
 ```
-Run these three commands in row will acomplish the flashing.
+Run these three commands in sequence will acomplish the flashing.
