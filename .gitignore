@@ -31,3 +31,5 @@
 *.out
 *.app
 
+# The build result files
+./BVMCN5102/s130/armgcc/_build/
